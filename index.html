@@ -3,17 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"/>
     <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Tic Tac Toe</h1>
+        <h1>Tic-Tac-Toe</h1>
     </header>
-    <main></main>
+    <main>
+        <div class="player-inputs">
+            <label>
+                Player (X):
+                <input type="text" id="player1Name" placeholder="Enter name for Player X">
+            </label>
+            <label>
+                Player (O):
+                <input type="text" id="player2Name" placeholder="Enter name for Player O">
+            </label>
+        </div>
+    
+        <div class="game-status" id="game-status">Enter player names and press start</div>
+    
+        <div class="tic-tac-toe-board" id="board">
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+        </div>
+
+        <button id="startButton">Start Game</button>
+    </main>
     <footer>
         <p>Created by Dev Mfundo</p>
     </footer>
-    <script src="./script.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
