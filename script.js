@@ -46,7 +46,6 @@ function handleCellClick(event, index) {
         updateGameStatus("It's a tie!");
         gameState.isGameActive = false;
     } else {
-        // Switch player
         switchPlayer();
         updateGameStatus(`${gameState.currentPlayer.name}'s turn`);
     }
