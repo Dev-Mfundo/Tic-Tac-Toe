@@ -16,14 +16,15 @@ body {
 
 header {
     background: linear-gradient(90deg, #111, #333);
-    box-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+    box-shadow: 0 0 10px #00ffea, 0 0 10px #00ffea;
     width: 100%;
     text-align: center;
     padding: 0px 0;
+    margin-bottom: 10px;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-shadow: 0 0 10px #00b7ff, 0 0 20px #0099ff;
     color: #0084ff; 
 }
@@ -84,9 +85,9 @@ button {
     background-color: #111;
     color: #00ffea;
     border: 2px solid #00ffea;
-    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+    text-shadow: 0 0 10px #00ffea, 0 0 10px #00ffea;
     cursor: pointer;
-    box-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+    box-shadow: 0 0 10px #00ffea, 0 0 10px #00ffea;
     transition: background-color 0.3s, box-shadow 0.3s;
     display: block;
     margin: 20px auto;
@@ -94,7 +95,7 @@ button {
 
 button:hover {
     background-color: #222;
-    box-shadow: 0 0 25px #00ccff, 0 0 30px #001aff;
+    box-shadow: 0 0 25px #00ccff, 0 0 20px #001aff;
 }
 
 .game-status {
@@ -104,19 +105,19 @@ button:hover {
     height: 24px;
     text-align: center;
     color: #00ffea;
-    text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+    text-shadow: 0 0 10px #00ffea, 0 0 10px #00ffea;
 }
 
 footer {
     background: linear-gradient(90deg, #333, #111);
     width: 100%;
     text-align: center;
-    box-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea;
+    box-shadow: 0 0 10px #00ffea, 0 0 10px #00ffea;
 }
 
 footer p {
-    padding: 10px;
+    padding: 5px;
     color: #0099ff;
     font-family: 'Press Start 2P', cursive;
-    text-shadow: 0 0 10px #0059ff, 0 0 20px #00ccff;
+    text-shadow: 0 0 10px #0059ff, 0 0 10px #00ccff;
 }
